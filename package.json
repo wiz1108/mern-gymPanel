@@ -1,0 +1,29 @@
+{
+  "name": "gympanel",
+  "version": "1.0.0",
+  "description": "This is a collaborative project for NEU CS 5610 Assignment 2. The authors of the project and the instructor of the course preserve any right to the content of the project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "cd react && npm install && npm run build"
+  },
+  "author": "Darkhorse",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "latest",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "typescript": "^4.0.5",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.15.0"
+  }
+}

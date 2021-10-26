@@ -1,0 +1,79 @@
+.register-form {
+  position: relative;
+  top: 20px;
+  line-height: 5%;
+}
+
+#title-form {
+  position: relative;
+  bottom: 10px;
+}
+
+.form-group input {
+  position: relative;
+  width: 378px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: white;
+  color: black;
+}
+
+#date {
+  position: relative;
+  width: 378px;
+  height: 36px;
+}
+
+#gender {
+  position: relative;
+  width: 378px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.register-form button {
+  border: none;
+  border-radius: 18px;
+  width: 378px;
+  background-color: #007ab8;
+  font-weight: bold;
+}
+
+.register-form button:hover {
+  background-color: #00699e;
+}
+
+.register-form a {
+  position: relative;
+  top: 30px;
+  color: #40bfff;
+}
+
+#usernameError {
+  position: relative;
+  bottom: 26px;
+  left: 280px;
+}
+
+#passwordError {
+  position: relative;
+  bottom: 42px;
+  left: 280px;
+}
+
+#emailError {
+  position: relative;
+  bottom: 28px;
+  left: 270px;
+}
+
+#duplicatesError {
+  position: relative;
+  top: 70px;
+}

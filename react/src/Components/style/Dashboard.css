@@ -1,0 +1,61 @@
+.App-link {
+  position: relative;
+  right: 15px;
+}
+
+.side-nav {
+  background: white;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  padding-top: 20px;
+  z-index: 1;
+  left: 0;
+  overflow-x: hidden;
+  color: black;
+}
+
+.side-nav a {
+  color: black;
+}
+
+.side-nav ul {
+  margin-left: 0;
+  padding-inline-start: 0;
+}
+
+.side-nav h2 {
+  font-size: 1.5em;
+}
+
+.side-nav li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: white 1px;
+}
+
+.side-nav li:hover,
+.active {
+  background-color: #00699e;
+  color: white;
+}
+
+.side-nav li:hover a {
+  color: white;
+}
+
+.active a {
+  color: white;
+}
+
+.main-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  background: url('https://wallpaperaccess.com/full/1633729.jpg');
+}
+
+.main-container::-webkit-scrollbar {
+  display: none;
+}

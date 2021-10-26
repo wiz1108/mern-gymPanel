@@ -1,0 +1,8 @@
+#edit-button {
+  position: relative;
+  width: 400px;
+  top: 50%;
+  border: none;
+  background-color: #007ab8;
+  font-weight: 500;
+}
